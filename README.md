@@ -1,2 +1,2 @@
-# Cria-o-de-Layout-Gabriel
+# Criacao-de-Layout-Gabriel
 Aceleradora Ágil: 2ª Fase Processo seletivo (Criação de Layout)
