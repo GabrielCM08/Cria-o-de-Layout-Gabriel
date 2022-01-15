@@ -1,0 +1,162 @@
+/* Grid Container */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 0 auto;
+  width: 750px;
+  height: 100px;
+  background: rgb(115, 6, 218);
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+}
+
+.menuPrincipal {
+  margin: 0 auto;
+  width: 750px;
+  height: 70px;
+  background: rgb(224, 69, 69);
+  padding: 20px 20px;
+  color: #fff;
+}
+
+.leftM {
+  width: 150px;
+  height: 400px;
+  background: rgb(170, 158, 240);
+  padding: 25px 10px;
+  color: #fff;
+}
+
+.leftM ul li {
+  background-color: #34ae43;
+  border: 3px solid #234966;
+  border-radius: 5px;
+  display: block;
+  width: 100px;
+  height: 20px;
+  margin: 10px;
+  padding: 25px 10px;
+  transition: 0.5s;
+}
+
+.leftM a {
+  padding: 0px 17px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.leftM ul li:hover {
+  background-color: #234966;
+}
+
+.rightM {
+  width: 150px;
+  height: 400px;
+  background: rgb(170, 158, 240);
+  padding: 25px 10px;
+  color: #fff;
+}
+
+.main {
+  width: 450px;
+  height: 400px;
+  background: rgb(138, 129, 190);
+  padding: 25px;
+  color: #fff;
+}
+
+fieldset {
+  margin-top: -12px;
+  background-color: #a7c0dc;
+  width: 400px;
+  height: 380px;
+}
+legend {
+  font-weight: bold;
+  font-family: "Segoe UI", "Arial", "Times New Roman";
+}
+
+#area {
+  position: relative;
+  width: 320px;
+  height: 270px;
+}
+#area #formulario {
+  position: absolute;
+  display: block;
+}
+
+#formulario label {
+  margin-top: 40px;
+  left: 15px;
+  position: absolute;
+}
+
+#formulario input.campo_nome {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 225px;
+}
+#formulario input.campo_email {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 225px;
+}
+#formulario input.campo_telefone {
+  background-color: white;
+  left: 95px;
+  margin-top: 10px;
+  width: 225px;
+}
+#formulario textarea.msg {
+  margin-top: 35px;
+  position: absolute;
+  left: 15px;
+  background-color: white;
+}
+
+#formulario input.btn_submit {
+  width: 380px;
+  height: 20px;
+  border-style: none;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 0.5em;
+  right: 10px;
+  background-color: #0044ff;
+  color: #fff;
+}
+
+.checkbox {
+  margin-top: 145px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 750px;
+  height: 90px;
+  background: rgb(115, 6, 218);
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+  font-family: Helvetica;
+}
